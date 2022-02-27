@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@100&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    color: gray;
+    
+}
+body ::selection{
+    background-color:#00ccb1;
+    color:white;
+}
+ header nav {
+display: flex;
+}
+a {
+    text-decoration: none;
+}
+nav {
+
+    height: 50px;
+    padding: 20px;
+    width: 80%; ;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.logo {
+width: 270px;
+height: 30px;
+}
+nav ul {
+    width: 300px;
+    list-style:none ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    
+}
+nav ul li a:hover{
+    color:#00ccb1;
+}
+.current{
+    color: #00ccb1;
+}
+.desc {
+    width: 80%;
+    margin:0 auto;
+    padding: 30px;
+    text-align: center;
+
+}
+.desc h2 {
+    margin:50px;
+    font-size: 34px;
+    font-weight: 200;
+    color:#00ccb1;
+    font-family: "Roboto",sans-serif;
+    
+
+}
+.para {
+
+    padding:0 100px;
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    text-align: left;
+}
+.para > * {
+width: 48%;
+line-height: 1.75;
+font-size: 20px;
+font-weight: 300;
+}
+#cards {
+    display: flex;
+    justify-content:center;
+    text-align:center;
+    margin: 100px;;
+    padding: 0 auto;
+}
+.patients {
+    background-color: aqua;
+    text-align: left;
+    justify-content: space-between;
+    padding:50px;
+    margin: 0 auto;
+}
+.doctors {
+    background-color: rgb(29, 57, 216);
+    text-align: left;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0 auto;
+}
+.clinics {
+    background-color: rgb(42, 42, 65);
+    text-align: left;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0 auto;
+}
+#cards p{
+    color: white;
+    font-family: "Roboto",sans-serif;
+    font-size: large;
+    line-height: 1.75;
+}
+#cards h2 {
+    margin:5px;
+    color: white;
+    font-family: "Roboto",sans-serif;
+
+}
+.brand h2{
+
+    margin: 0 auto;
+    color: #00ccb1;
+    font-family: "Roboto",sans-serif;
+    width: 80%;
+    line-height: 1.75;
+   
+
+    
+}
